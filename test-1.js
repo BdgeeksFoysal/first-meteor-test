@@ -1,3 +1,4 @@
+var Test = new Meteor.Collection('Tests');
 if (Meteor.isClient) {
   Template.hello.greeting = function () {
     return "Welcome to test-1.";
